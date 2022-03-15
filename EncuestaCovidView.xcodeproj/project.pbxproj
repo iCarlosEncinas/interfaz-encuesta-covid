@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98ABE75227D6BDA800D16519 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98ABE75127D6BDA800D16519 /* AppDelegate.swift */; };
+		98ABE75427D6BDA800D16519 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98ABE75327D6BDA800D16519 /* SceneDelegate.swift */; };
+		98ABE75627D6BDA800D16519 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98ABE75527D6BDA800D16519 /* ViewController.swift */; };
+		98ABE75927D6BDA800D16519 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98ABE75727D6BDA800D16519 /* Main.storyboard */; };
+		98ABE75B27D6BDBD00D16519 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98ABE75A27D6BDBD00D16519 /* Assets.xcassets */; };
+		98ABE75E27D6BDBD00D16519 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98ABE75C27D6BDBD00D16519 /* LaunchScreen.storyboard */; };
+		98ABE77527D6C4F800D16519 /* Indivisa Text Serif Regular Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 98ABE76527D6C4F400D16519 /* Indivisa Text Serif Regular Italic.otf */; };
+		98ABE77627D6C4F800D16519 /* Indivisa Text Sans-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 98ABE76627D6C4F500D16519 /* Indivisa Text Sans-Light.otf */; };
+		98ABE77727D6C4F800D16519 /* Indivisa Text Serif Black Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 98ABE76727D6C4F500D16519 /* Indivisa Text Serif Black Italic.otf */; };
+		98ABE77827D6C4F800D16519 /* Indivisa Text Serif Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 98ABE76827D6C4F500D16519 /* Indivisa Text Serif Regular.otf */; };
+		98ABE77927D6C4F800D16519 /* Indivisa Text Sans-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 98ABE76927D6C4F500D16519 /* Indivisa Text Sans-Bold.otf */; };
+		98ABE77A27D6C4F800D16519 /* Indivisa Text Sans-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 98ABE76A27D6C4F500D16519 /* Indivisa Text Sans-Black.otf */; };
+		98ABE77B27D6C4F800D16519 /* Indivisa Text Sans-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 98ABE76B27D6C4F600D16519 /* Indivisa Text Sans-Regular.otf */; };
+		98ABE77C27D6C4F800D16519 /* Indivisa Text Serif Light Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 98ABE76C27D6C4F600D16519 /* Indivisa Text Serif Light Italic.otf */; };
+		98ABE77D27D6C4F800D16519 /* Indivisa Text Sans-Light Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 98ABE76D27D6C4F600D16519 /* Indivisa Text Sans-Light Italic.otf */; };
+		98ABE77E27D6C4F800D16519 /* Indivisa Text Serif Bold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 98ABE76E27D6C4F600D16519 /* Indivisa Text Serif Bold Italic.otf */; };
+		98ABE77F27D6C4F800D16519 /* Indivisa Text Sans-Bold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 98ABE76F27D6C4F700D16519 /* Indivisa Text Sans-Bold Italic.otf */; };
+		98ABE78027D6C4F800D16519 /* Indivisa Text Sans-Regular Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 98ABE77027D6C4F700D16519 /* Indivisa Text Sans-Regular Italic.otf */; };
+		98ABE78127D6C4F800D16519 /* Indivisa Text Serif Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 98ABE77127D6C4F700D16519 /* Indivisa Text Serif Black.otf */; };
+		98ABE78227D6C4F800D16519 /* Indivisa Text Serif Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 98ABE77227D6C4F700D16519 /* Indivisa Text Serif Bold.otf */; };
+		98ABE78327D6C4F800D16519 /* Indivisa Text Sans-Black Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 98ABE77327D6C4F700D16519 /* Indivisa Text Sans-Black Italic.otf */; };
+		98ABE78427D6C4F800D16519 /* Indivisa Text Serif Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 98ABE77427D6C4F800D16519 /* Indivisa Text Serif Light.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		98ABE74E27D6BDA800D16519 /* EncuestaCovidView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EncuestaCovidView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98ABE75127D6BDA800D16519 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		98ABE75327D6BDA800D16519 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		98ABE75527D6BDA800D16519 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		98ABE75827D6BDA800D16519 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98ABE75A27D6BDBD00D16519 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98ABE75D27D6BDBD00D16519 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		98ABE75F27D6BDBD00D16519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98ABE76527D6C4F400D16519 /* Indivisa Text Serif Regular Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Indivisa Text Serif Regular Italic.otf"; sourceTree = "<group>"; };
+		98ABE76627D6C4F500D16519 /* Indivisa Text Sans-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Indivisa Text Sans-Light.otf"; sourceTree = "<group>"; };
+		98ABE76727D6C4F500D16519 /* Indivisa Text Serif Black Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Indivisa Text Serif Black Italic.otf"; sourceTree = "<group>"; };
+		98ABE76827D6C4F500D16519 /* Indivisa Text Serif Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Indivisa Text Serif Regular.otf"; sourceTree = "<group>"; };
+		98ABE76927D6C4F500D16519 /* Indivisa Text Sans-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Indivisa Text Sans-Bold.otf"; sourceTree = "<group>"; };
+		98ABE76A27D6C4F500D16519 /* Indivisa Text Sans-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Indivisa Text Sans-Black.otf"; sourceTree = "<group>"; };
+		98ABE76B27D6C4F600D16519 /* Indivisa Text Sans-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Indivisa Text Sans-Regular.otf"; sourceTree = "<group>"; };
+		98ABE76C27D6C4F600D16519 /* Indivisa Text Serif Light Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Indivisa Text Serif Light Italic.otf"; sourceTree = "<group>"; };
+		98ABE76D27D6C4F600D16519 /* Indivisa Text Sans-Light Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Indivisa Text Sans-Light Italic.otf"; sourceTree = "<group>"; };
+		98ABE76E27D6C4F600D16519 /* Indivisa Text Serif Bold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Indivisa Text Serif Bold Italic.otf"; sourceTree = "<group>"; };
+		98ABE76F27D6C4F700D16519 /* Indivisa Text Sans-Bold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Indivisa Text Sans-Bold Italic.otf"; sourceTree = "<group>"; };
+		98ABE77027D6C4F700D16519 /* Indivisa Text Sans-Regular Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Indivisa Text Sans-Regular Italic.otf"; sourceTree = "<group>"; };
+		98ABE77127D6C4F700D16519 /* Indivisa Text Serif Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Indivisa Text Serif Black.otf"; sourceTree = "<group>"; };
+		98ABE77227D6C4F700D16519 /* Indivisa Text Serif Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Indivisa Text Serif Bold.otf"; sourceTree = "<group>"; };
+		98ABE77327D6C4F700D16519 /* Indivisa Text Sans-Black Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Indivisa Text Sans-Black Italic.otf"; sourceTree = "<group>"; };
+		98ABE77427D6C4F800D16519 /* Indivisa Text Serif Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Indivisa Text Serif Light.otf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98ABE74B27D6BDA700D16519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98ABE74527D6BDA600D16519 = {
+			isa = PBXGroup;
+			children = (
+				98ABE75027D6BDA800D16519 /* EncuestaCovidView */,
+				98ABE74F27D6BDA800D16519 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98ABE74F27D6BDA800D16519 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98ABE74E27D6BDA800D16519 /* EncuestaCovidView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98ABE75027D6BDA800D16519 /* EncuestaCovidView */ = {
+			isa = PBXGroup;
+			children = (
+				98ABE75127D6BDA800D16519 /* AppDelegate.swift */,
+				98ABE75327D6BDA800D16519 /* SceneDelegate.swift */,
+				98ABE75527D6BDA800D16519 /* ViewController.swift */,
+				98ABE75727D6BDA800D16519 /* Main.storyboard */,
+				98ABE75A27D6BDBD00D16519 /* Assets.xcassets */,
+				98ABE75C27D6BDBD00D16519 /* LaunchScreen.storyboard */,
+				98ABE75F27D6BDBD00D16519 /* Info.plist */,
+				98ABE78527D6C52300D16519 /* Indivisa Font */,
+			);
+			path = EncuestaCovidView;
+			sourceTree = "<group>";
+		};
+		98ABE78527D6C52300D16519 /* Indivisa Font */ = {
+			isa = PBXGroup;
+			children = (
+				98ABE77327D6C4F700D16519 /* Indivisa Text Sans-Black Italic.otf */,
+				98ABE76A27D6C4F500D16519 /* Indivisa Text Sans-Black.otf */,
+				98ABE76F27D6C4F700D16519 /* Indivisa Text Sans-Bold Italic.otf */,
+				98ABE76927D6C4F500D16519 /* Indivisa Text Sans-Bold.otf */,
+				98ABE76D27D6C4F600D16519 /* Indivisa Text Sans-Light Italic.otf */,
+				98ABE76627D6C4F500D16519 /* Indivisa Text Sans-Light.otf */,
+				98ABE77027D6C4F700D16519 /* Indivisa Text Sans-Regular Italic.otf */,
+				98ABE76B27D6C4F600D16519 /* Indivisa Text Sans-Regular.otf */,
+				98ABE76727D6C4F500D16519 /* Indivisa Text Serif Black Italic.otf */,
+				98ABE77127D6C4F700D16519 /* Indivisa Text Serif Black.otf */,
+				98ABE76E27D6C4F600D16519 /* Indivisa Text Serif Bold Italic.otf */,
+				98ABE77227D6C4F700D16519 /* Indivisa Text Serif Bold.otf */,
+				98ABE76C27D6C4F600D16519 /* Indivisa Text Serif Light Italic.otf */,
+				98ABE77427D6C4F800D16519 /* Indivisa Text Serif Light.otf */,
+				98ABE76527D6C4F400D16519 /* Indivisa Text Serif Regular Italic.otf */,
+				98ABE76827D6C4F500D16519 /* Indivisa Text Serif Regular.otf */,
+			);
+			path = "Indivisa Font";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98ABE74D27D6BDA700D16519 /* EncuestaCovidView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98ABE76227D6BDBE00D16519 /* Build configuration list for PBXNativeTarget "EncuestaCovidView" */;
+			buildPhases = (
+				98ABE74A27D6BDA700D16519 /* Sources */,
+				98ABE74B27D6BDA700D16519 /* Frameworks */,
+				98ABE74C27D6BDA700D16519 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EncuestaCovidView;
+			productName = EncuestaCovidView;
+			productReference = 98ABE74E27D6BDA800D16519 /* EncuestaCovidView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98ABE74627D6BDA700D16519 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					98ABE74D27D6BDA700D16519 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 98ABE74927D6BDA700D16519 /* Build configuration list for PBXProject "EncuestaCovidView" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98ABE74527D6BDA600D16519;
+			productRefGroup = 98ABE74F27D6BDA800D16519 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98ABE74D27D6BDA700D16519 /* EncuestaCovidView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98ABE74C27D6BDA700D16519 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98ABE77E27D6C4F800D16519 /* Indivisa Text Serif Bold Italic.otf in Resources */,
+				98ABE78227D6C4F800D16519 /* Indivisa Text Serif Bold.otf in Resources */,
+				98ABE75E27D6BDBD00D16519 /* LaunchScreen.storyboard in Resources */,
+				98ABE78327D6C4F800D16519 /* Indivisa Text Sans-Black Italic.otf in Resources */,
+				98ABE78027D6C4F800D16519 /* Indivisa Text Sans-Regular Italic.otf in Resources */,
+				98ABE77927D6C4F800D16519 /* Indivisa Text Sans-Bold.otf in Resources */,
+				98ABE77627D6C4F800D16519 /* Indivisa Text Sans-Light.otf in Resources */,
+				98ABE77A27D6C4F800D16519 /* Indivisa Text Sans-Black.otf in Resources */,
+				98ABE78127D6C4F800D16519 /* Indivisa Text Serif Black.otf in Resources */,
+				98ABE75B27D6BDBD00D16519 /* Assets.xcassets in Resources */,
+				98ABE77F27D6C4F800D16519 /* Indivisa Text Sans-Bold Italic.otf in Resources */,
+				98ABE77B27D6C4F800D16519 /* Indivisa Text Sans-Regular.otf in Resources */,
+				98ABE78427D6C4F800D16519 /* Indivisa Text Serif Light.otf in Resources */,
+				98ABE77727D6C4F800D16519 /* Indivisa Text Serif Black Italic.otf in Resources */,
+				98ABE77527D6C4F800D16519 /* Indivisa Text Serif Regular Italic.otf in Resources */,
+				98ABE77C27D6C4F800D16519 /* Indivisa Text Serif Light Italic.otf in Resources */,
+				98ABE75927D6BDA800D16519 /* Main.storyboard in Resources */,
+				98ABE77D27D6C4F800D16519 /* Indivisa Text Sans-Light Italic.otf in Resources */,
+				98ABE77827D6C4F800D16519 /* Indivisa Text Serif Regular.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98ABE74A27D6BDA700D16519 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98ABE75627D6BDA800D16519 /* ViewController.swift in Sources */,
+				98ABE75227D6BDA800D16519 /* AppDelegate.swift in Sources */,
+				98ABE75427D6BDA800D16519 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		98ABE75727D6BDA800D16519 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98ABE75827D6BDA800D16519 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		98ABE75C27D6BDBD00D16519 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98ABE75D27D6BDBD00D16519 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98ABE76027D6BDBD00D16519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		98ABE76127D6BDBD00D16519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98ABE76327D6BDBE00D16519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EncuestaCovidView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Carlos-Encinas.EncuestaCovidView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98ABE76427D6BDBE00D16519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EncuestaCovidView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Carlos-Encinas.EncuestaCovidView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98ABE74927D6BDA700D16519 /* Build configuration list for PBXProject "EncuestaCovidView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98ABE76027D6BDBD00D16519 /* Debug */,
+				98ABE76127D6BDBD00D16519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98ABE76227D6BDBE00D16519 /* Build configuration list for PBXNativeTarget "EncuestaCovidView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98ABE76327D6BDBE00D16519 /* Debug */,
+				98ABE76427D6BDBE00D16519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98ABE74627D6BDA700D16519 /* Project object */;
+}
